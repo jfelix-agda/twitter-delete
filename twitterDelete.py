@@ -45,7 +45,7 @@ tweetPaginator = tweepy.Paginator(client.get_users_tweets,userID,max_results=100
 for tweet in tweetPaginator.flatten():
     print("Deleting Tweet:")
     print(tweet.id)
-    #client.delete_tweet(tweet.id)
+    client.delete_tweet(tweet.id)
     time.sleep(0.5)
 
 

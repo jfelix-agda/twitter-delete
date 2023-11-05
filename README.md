@@ -4,6 +4,8 @@ This is a personal program to delete tweets from one year ago up to the current 
 
 <b>Use at your own risk!</b>
 
+<b>Update @ November 5, 2023:</b> due to changes in the Twitter API, this program has been rendered deprecated and will cease to be maintained.
+
 # Instructions
 
 1. Create a Developer account on https://developer.twitter.com
